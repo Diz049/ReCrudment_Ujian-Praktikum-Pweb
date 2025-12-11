@@ -118,7 +118,7 @@ $jobs = $result;
 
 <!-- FOOTER -->
 <footer class="bg-dark text-white text-center py-3">
-  <p class="mb-0">&copy; 2025 Project Lepkom</p>
+  <p class="mb-0">&copy; 2025 Project Praktikum</p>
 </footer>
 
   <!-- Bootstrap JS local -->
