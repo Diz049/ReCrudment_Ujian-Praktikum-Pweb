@@ -1,5 +1,4 @@
-#Aplikasi CRUD Lamaran Pekerjaan
-
+# ReCrudment
 Aplikasi berbasis PHP dan MySQL yang digunakan untuk mengelola lowongan pekerjaan dan lamaran. Sistem ini dikembangkan menggunakan XAMPP, MySQL, dan Bootstrap.
 
 
@@ -10,20 +9,6 @@ Aplikasi berbasis PHP dan MySQL yang digunakan untuk mengelola lowongan pekerjaa
 * Applicant dapat melihat lowongan dan mengirim lamaran
 * Sistem upload CV (PDF atau gambar)
 * Penyimpanan data menggunakan MySQL
-
-
-## Struktur Folder
-
-recruit_crud/
-├── crud/
-│   ├── uploads/
-│   │   └── cv/            # Folder upload CV
-│   └── file PHP lain
-├── database/
-│   └── db_jobless.sql     # File database
-├── connection.example.php
-└── .gitignore
-```
 
 
 ## Cara Instalasi
@@ -48,7 +33,7 @@ recruit_crud/
    database/db_jobless.sql
    ```
 
-5. Salin file `connection.example.php` menjadi `connection.php` dan sesuaikan konfigurasi:
+5. ubah `connection.php` dan sesuaikan konfigurasi & nama database:
 
    ```php
    <?php
@@ -67,19 +52,11 @@ recruit_crud/
 ## Akun Contoh
 
 Admin:
+
 username: admin
 password: admin123
 
 Applicant:
+
 username: Diaz
 password: login123
-
----
-
-## Teknologi yang Digunakan
-
-* PHP
-* MySQL
-* HTML dan CSS
-* Bootstrap
-* XAMPP
